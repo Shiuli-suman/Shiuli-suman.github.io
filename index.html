@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Suman</title>
 </head>
 <body>
-    <p>hi this is Suman's Portfolio</p>
+    <p>Hi this is Shiuli Suman</p>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
 </body>
+<style>
+    .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: Arial;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+</style>
 </html>
