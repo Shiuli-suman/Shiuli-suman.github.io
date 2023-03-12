@@ -294,26 +294,97 @@ section:nth-child(1){
     text-align: center;
     padding: 80px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#projects>h1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    color:  #14054f;
+    font-size: 35px;
+}
+#projects>div{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    gap:100px;
+}
+#projects>div>div{
+    height:auto;
+    border-radius: 18px;
+    padding-bottom: 40px;
+    background-color: rgba(248, 248, 248, 0.842);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#projects>div>div>img{
+    width: 100%;
+    height: 48%;
+    margin: auto;
+    padding-top: 10px;
+    background-color: white;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom: 1px solid gainsboro;
+}
+#projects>div>div:nth-child(2)>img{
+    background-color: rgba(245, 245, 245, 0.626);
+}
+#projects>div>div>h2{
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(3, 113, 104);
+}
+#projects>div>div:nth-child(4)>h2{
+    width: 85%;
+}
+#projects>div>div>p{
+    width: 85%;
+    margin: auto;
+}
+#projects>div>div>p:nth-child(3){
+    text-align: justify;
+}
+#projects>div>div>p:nth-child(4){
+    margin-top: 8px;
+    font-size: 1.15rem;
+    color:#14054f;
+}
+#projects>div>div>p>i{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+#projects>div>div>p>i:nth-child(1){
+    color: orangered;
+}
+#projects>div>div>p>i:nth-child(2){
+    color: blue;
+}
+#projects>div>div:nth-child(3)>p>i:nth-child(2), #projects>div>div:nth-child(4)>p>i:nth-child(2){
+    color: gray;
+}
+#projects>div>div>p>i:nth-child(3){
+    color: rgb(211, 121, 18);
+}
+#projects>div>div>button{
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: -10px;
+    padding:8px 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(7, 165, 152);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+#projects>div>div>button:hover{
+    background-color: rgb(3, 110, 101);
+    cursor: pointer;
+}
+#projects>div>div>button>i{
+    font-size: 12px;
+}
 #contact>h1{
     width: 90%;
     margin: auto;
@@ -339,7 +410,7 @@ section:nth-child(1){
 }
 #contact>div>div>input:focus,#contact>div>div>textarea:focus{
     outline: none;
-    border: 0.5px solid  #443dcc;
+    border: 0.5px solid  #14054f;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #contact>div>div>input:nth-child(4){
@@ -573,16 +644,11 @@ section:nth-child(1){
         margin-left: 80px;
         text-align: center;
     }
-    /* #navbar .container{
-        width: 70%;
-        margin-right: 0%;
-        display: none;
-        justify-content: space-around;
-    } */
+    
     .checkbtn{
         display:block;
         margin-right: -260px;
-        color:  #443dcc;
+        color:  #14054f;
         font-size: 18px;
     }
 
@@ -778,7 +844,7 @@ section:nth-child(1){
 }
 #intro>h1{
     font-size: 60px;
-    color: rgb(68, 48, 132);
+    color: #14054f;
 }
 #imp{
 width: auto;
