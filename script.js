@@ -7,44 +7,17 @@ window.onscroll = function(){
         navbar.classList.remove("scrolled");
     }
 }
-document.getElementById("git1Button").addEventListener("click",function(){
-    window.open("https://github.com/hr927/Flair-Clothing", "_blank");
-})
-document.getElementById("deploy1Button").addEventListener("click",function(){
-    window.open("https://reliable-tiramisu-cba0a4.netlify.app/", "_blank");
-})
-
-document.getElementById("git2Button").addEventListener("click",function(){
-    window.open("https://github.com/akt0001c/fumbling-hand-3558", "_blank");
-})
-document.getElementById("deploy2Button").addEventListener("click",function(){
-    window.open("https://deluxe-zuccutto-b4622b.netlify.app/", "_blank");
-})
 
 document.getElementById("git3Button").addEventListener("click",function(){
-    window.open("https://github.com/musarraf207/miscreant-table-6573", "_blank");
-})
-document.getElementById("deploy3Button").addEventListener("click",function(){
-    window.open("https://neon-monstera-bcba47.netlify.app/", "_blank");
-})
-
-document.getElementById("git4Button").addEventListener("click",function(){
-    window.open("https://github.com/musarraf207/Asana-customer-onboarding-", "_blank");
-})
-document.getElementById("deploy4Button").addEventListener("click",function(){
-    window.open("https://radiant-pudding-ced2b0.netlify.app/", "_blank");
-})
-
-document.getElementById("instagram").addEventListener("click",function(){
-    window.open("https://www.instagram.com/musarraf207/")
+    window.open("https://github.com/Shiuli-suman/Fitness", "_blank");
 })
 
 document.getElementById("linkedin").addEventListener("click",function(){
-    window.open("https://www.linkedin.com/in/musarraf-raza-292983201/");
+    window.open("https://www.linkedin.com/in/shiuli-suman-b378b8247/");
 })
 
 document.getElementById("github").addEventListener("click",function(){
-    window.open("https://github.com/musarraf207");
+    window.open("https://github.com/Shiuli-suman");
 })
 
 
@@ -130,5 +103,5 @@ function mycheck(){
 
 function resumeDownload(){
    
-        window.open("fw20_0874-Musarraf-Raza-Resume.pdf","_blank");
+        window.open("https://drive.google.com/file/d/11sTXdRokfssqzZkMkmEgFq93vfPKQwus/view?usp=share_link","_blank");
       }
