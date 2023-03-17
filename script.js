@@ -1,12 +1,42 @@
-let navbar = document.getElementById("navbar");
-window.onscroll = function(){
-    if(window.scrollY>20){
-        navbar.classList.add("scrolled");
-
-    } else{
-        navbar.classList.remove("scrolled");
-    }
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if(this.scrollY > 20){
+          $('.navbar').addClass("sticky")
+      }else{
+          $('.navbar').removeClass("sticky")
+      }
+  });
+  $('.menu-btn').click(function(){
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
+})
+})
+var runredirect = function () {
+  var redirectw1 = window.open('https://drive.google.com/file/d/1VKBAsCoepUOo4eZ828-dhNz67CCifUGm/view?usp=share_link');
+  redirectw1.location;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 document.getElementById("git3Button").addEventListener("click",function(){
     window.open("https://github.com/Shiuli-suman/Fitness", "_blank");

@@ -11,75 +11,62 @@
 </head>
 <body>
     <!--Navbar-->
-    <section class="hero">
-        <header class="header">
-            <nav id="navbar">
-                <div id="logo">
-                    <!-- <img src="./images/logo_portfolio.png" alt=""> -->
+    <nav class="navbar">
+        <div class="header">
+            <div class="logo">
+                <div >
+                    <a href="#">
+                        <img style="height:60px; width:60px;border-radius: 50%;" src="https://t4.ftcdn.net/jpg/02/86/39/65/360_F_286396551_sVtt3V3Vy6Ba8yM2WRgtsiGC4HNv2wSl.jpg" alt="">
+                    </a>
                 </div>
-                <input type="checkbox" id="check" onclick="mycheck()">
-                <label for="check" class="checkbtn">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-                <div class="nav_icon">
-                    <div class="line"></div>
-                </div>
-                <div class="container">
-                    <ul class="nav_menu" id="navMenu">
-                        <li class="nav_list" onclick="myfunc()"><a href="#home" class="nav_link home active">HOME</a></li>
-                        <li class="nav_list" onclick="myfunc()"><a href="#aboutme" class="nav_link">ABOUT ME</a></li>
-                        <li class="nav_list" onclick="myfunc()"><a href="#education" class="nav_link">EDUCATION</a></li>
-                        <li class="nav_list" onclick="myfunc()"><a href="#skills" class="nav_link">SKILLS</a></li>
-                        <li class="nav_list" onclick="myfunc()"><a href="#projects" class="nav_link">PROJECTS</a></li>
-                        <li class="nav_list" onclick="myfunc()"><a href="#contact" class="nav_link">CONTACT</a></li>
-                        <li class="nav_list"><a onclick="resumeDownload()" id="6" href="fw20_0874-Musarraf-Raza-Resume.pdf" target="_blank" download="fw20_0874-Musarraf-Raza-Resume.pdf">RESUME</a></li>
-                    </ul>
-                </div>
-               
-            </nav>
-        </header>
-    </section>
-    <!-- Home -->
-    <section id="home">
-        <div id="intro">
-            <h1>Namaste World!!!!</h1>
-            <p>I'm <span>Shiuli Suman</span></p>
-            <div class="wrapper">
-                <!-- <div class="static-txt">I'm a</div> -->
-                <ul class="dynamic-txt">
-                    <li>Aspiring <span>Technical Support Engineer    !!!</span></li>
-                </ul>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li> <a href="https://drive.google.com/file/d/1VKBAsCoepUOo4eZ828-dhNz67CCifUGm/view?usp=share_link" download target="b
+                    " class="top-btn"  onclick="runredirect()">Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
-        <!-- <div id="imp">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyoKn57oMwZzSpHMoeBfJj3QMvpCcJPbAqg&usqp=CAU"alt="profile pic">
-        </div> -->
+    </nav>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="header">
+            <div class="home-content">
+                <div class="text-1">Namaste World!!, My name is</div>
+                <div class="text-2">Shiuli Suman</div>
+                <div id="tse" class="text-3">And I'm a <span>Technical Support Engineer</span></div>
+            </div>
+           
+        </div>
     </section>
       <!-- About Section -->
-      <section id="aboutme">
-        <h1>About Me</h1>
-        <div>
-            <div>
-                <img src="https://i.ibb.co/LhKNf7T/pp1.jpg"alt="profile pic">
-            </div>
-            <div>
-                <div>
-                    <h2>I'm  Shiuli Suman</h2>
-                    <p>An energetic and optimistic individual with relevant technical knowledge. 
-                       To acquire a position within the field of Technical Support Engineer with a reputed organization that will allow to demonstrate skills, knowledge, and desire to grow as an individual.
-                       Looking to acquire a position with an organization that provides the opportunity for further growth and development within the organization. 
-                    </p>
+      <section class="about" id="about">
+        <div class="header">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="https://i.ibb.co/LhKNf7T/pp1.jpg" alt="profile pic">
                 </div>
-                
+                <div class="column right">
+                    <div class="text">I'm <span>Shiuli Suman</span> and I'm a <span>Technical Support Engineer</span></div>
+                    <p>An energetic and optimistic individual with relevant technical knowledge. 
+                        To acquire a position within the field of Technical Support Engineer with a reputed organization that will allow to demonstrate skills, knowledge, and desire to grow as an individual.
+                        Looking to acquire a position with an organization that provides the opportunity for further growth and development within the organization. 
+                      
+                    </p>
+                    <a id="rsm" href="https://drive.google.com/file/d/1J_i-0cGchUQ5mEb-rJpq30w7dv7tWebI/view?usp=share_link"
+                    download target="_blank" onclick="runredirect()">Download Resume</a>
+                </div>
             </div>
         </div>
-        <a id="downloadResume" href="https://drive.google.com/file/d/1J_i-0cGchUQ5mEb-rJpq30w7dv7tWebI/view?usp=share_link" target="_blank"   download>Download Resume</a>
-        
-        <div class="calendar">
-            <!-- Loading stuff -->
-            Loading........
-        </div>        
     </section>
+                   
     <!-- Skills Sections -->
     <section id="skills">
         <h1> Technical Skills</h1>
@@ -156,72 +143,83 @@
             
         </div>
     </section>
-    <section id="projects">
-        <h1>Projects</h1>
+    <section id="skills">
+        <h1>Tools</h1>
         <div>
             <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuVFrHezx2B0lD-MX-TBXHtNYO0lma_Wg7TQr9HQx1xQ&s" alt="Rodan&Fields">
-                <h2>Freshwork Presentation</h2>
-                <p>
-                    Freshwork's onboarding presentation introduces new users to
-the platform's project management and collaboration tools. 
-                </p>
-                <p><b>Tech Stacks:</b></p>
-                <p>
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <i class="fa-brands fa-square-js"></i>
-                   
-                </p>
-                <button id="git4Button">Github <i class="fa-brands fa-github"></i></button>
-                <button id="deploy4Button">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-            </div> 
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNRbklVPURcPABSTymrwakoCemXl83G4RN9g&usqp=CAU" >
-                <h2>Fitness Clone</h2>
-                <p>Fitness Clone is an online fitness platform, offering fitness
-                    items and brands globally.</p>
-                <p><b>Tech Stacks:</b></p>
-                <p><i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <i class="fa-brands fa-square-js"></i>
-                </p>
-                <button id="git1Button">Github <i class="fa-brands fa-github"></i></button>
-                <button id="deploy1Button">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                <img src="https://i.ibb.co/pXYdmKD/vscodeim.png" alt="">
+                <h2>VS Code</h2>
             </div>
+            <div>
+                <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="">
+                <h2>Github</h2>
+            </div>
+            <div>
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="">
+                <h2>Netlify</h2>
+            </div>
+            
         </div>
     </section>
-    <!-- Contact Me -->
-    <section id="contact">
-        <h1>Contact</h1>
-        <div>
-            <div>
-                <div>
-                    <i class="fa-solid fa-map"></i>
-                    <p><br>Bhubaneswar , Odisha</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>+91 9692869460</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>shiulisuman99@gmail.com</p>
-                </div>
-            </div>
 
-        </div>
+    <!-- Project Sections -->
+    <section class="project" id="project" >
+        <div class="header">
+              
+            <h1 class="title">Projects</h1>
+            <div class="project-content">
+                
+                <div class="projects">
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-xmAxHg2aTZwV8FC74dRU2T-40bv7ATBPw&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Freshwork:-Customer onbording presentation</h2>
+                        <p>Freshwork's onboarding presentation introduces new users to the platform's project management and collaboration tools. </p>
+                       
+                        <p style="margin-top:20px ; color: rgb(10, 60, 82);">Techstacks : <span>HTML, CSS, RevealJS</span> </p>
+
+                        <a href="" target="_blank">Git Repo🔗 </a>
+                        <a href="" target="_blank">Demo🔗</a>
+                    </div>
+                </div>
+ 
+                <div class="projects">
+                    <div class="image">
+                        <img src="https://img.freepik.com/premium-photo/man-woman-jogging-fitness-city_79405-11854.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Fitness Clone</h2>
+                        <p>Fitness Clone is an online fitness platform, providing online workout session.</p>
+                        <p style="margin-top:20px ; color: rgb(10, 60, 82);">Techstacks : <span>HTML, CSS, JavaScript</span>
+                        </p>
+
+                        <a href="https://github.com/Shiuli-suman/Fitness" target="_blank">Git Repo🔗</a>
+                        <a href="https://glittery-malabi-d99f84.netlify.app" target="_blank">Demo🔗</a>
+                    </div>
+                </div>
+            </div>
     </section>
-    <div id="socialMedia">
-        
-        <i class="fa-brands fa-linkedin" id="linkedin"></i>
-        <i class="fa-brands fa-github" id="github"></i>
-    </div>
+    
+    
+    
+    <!-- Contact Me -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact</h2>
+            <i class="fas fa-phone-alt" style="border: 0px solid  rgb(10, 60, 82);display:flex; justify-content:center;gap: 5px;margin-bottom: 19px;"> <span>+91 9692869460</span></i>
+            <i class="fas fa-envelope"  style="border: 0px solid  rgb(10, 60, 82);display:flex; justify-content:center; gap: 5px;margin-bottom: 19px;"> <span>shiulisuman99@gmail.com</span></i>
+            <i class="fas fa-address-card"  style="border: 0px solid  rgb(10, 60, 82);display:flex; justify-content:center;gap: 10px;margin-bottom: 19px;"> <span>Bhubaneswar, Odisha</span> </i>
+        </div>
+
+        <div class="newcont" style="border:0px solid green;width: 250px; margin-bottom: 100px;">
+            <div  ><a href="https://www.linkedin.com/in/shiuli-suman-b378b8247/" target="_blank" >
+                    <i class="fab fa-linkedin  fa-1x"  style="width: 90%;"></i></a></div>
+            <div   ><a href="https://github.com/Shiuli-suman" target="_blank">
+                    <i class="fab fa-github" ></i></a></div>
+           
+    </section>
+    
 </body>
 </html>
 <script src="script.js" ></script>
-<script>
-    GitHubCalendar(".calendar", "Shiuli-suman");
 
-    GitHubCalendar(".calendar", "Shiuli-suman", { responsive: true });
-</script>
