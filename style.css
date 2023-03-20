@@ -379,8 +379,7 @@ section .title, #skills>h1{
 
 
    
- 
-    
+  
     @media(max-width:1100px) {
         .about .about-content .left img{
             height:350px;
@@ -473,6 +472,9 @@ section .title, #skills>h1{
         .content p{
             font-size: 20px;
         }
+        #skills>div{
+            grid-template-columns: 1fr 1fr;
+        }
     }
     @media (max-width:825px){
         .contact .content{
@@ -542,6 +544,9 @@ section .title, #skills>h1{
             font-family: 'Ubuntu', sans-serif;
             font-size: 16px;
             color: #0d1117;
+        }
+        #skills>div{
+            grid-template-columns: 1fr;
         }
     }
     @media(max-width:500px) {
