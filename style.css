@@ -42,18 +42,18 @@
     display: inline-block;
 }
 .navbar .menu li a{
-    color:rgb(34, 19, 165) ;
+    color:rgb(230, 10, 10) ;
     font-size: 30px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(34, 19, 165);
+    color: rgb(230, 10, 10);
 
 }
 .navbar .logo a span{
-    color:rgb(34, 19, 165);
+    color:rgb(230, 10, 10);
 }
 .menu-btn{
     color:#c8bdbd;
