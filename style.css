@@ -17,6 +17,7 @@
     z-index: 999;
     font-family: 'Ubuntu',sans-serif;
     transition: all 0.3s ease;
+    background-color: rgb(2, 85, 85);
 
 }
 .stats-2 {
@@ -25,7 +26,8 @@
 }
 .navbar.sticky{
     padding: 1px 0px;
-    background:rgb(10, 60, 82);
+    background:rgb(25, 37, 84);
+
 }
 .navbar .header{
     display: flex;
@@ -42,7 +44,7 @@
     display: inline-block;
 }
 .navbar .menu li a{
-    color:rgb(230, 10, 10) ;
+    color:rgb(244, 236, 236) ;
     font-size: 30px;
     font-weight: 500;
     margin-left: 25px;
