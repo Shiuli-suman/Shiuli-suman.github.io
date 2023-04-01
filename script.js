@@ -12,7 +12,7 @@ $(document).ready(function(){
 })
 })
 var runredirect = function () {
-  var redirectw1 = window.open('https://drive.google.com/file/d/1UgGM7mT0UfWmxwaZ3iicYPK6glQkwH77/view?usp=share_link');
+  var redirectw1 = window.open('https://drive.google.com/file/d/1A17k1zzKrasCQkrVQE3a1YIwQJds0fJ-/view?usp=share_link');
   redirectw1.location;
 }
 
